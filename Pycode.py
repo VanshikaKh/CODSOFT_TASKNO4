@@ -14,3 +14,15 @@ print("/  Division")
 # Ask the user to choose an operation
 operation = input("Enter the operation (+, -, *, /): ")
 
+# Check which operation the user selected
+if operation == "+":
+
+    # Add the two numbers
+    result = num1 + num2
+    print("Result:", result)
+
+elif operation == "-":
+
+    # Subtract the second number from the first
+    result = num1 - num2
+    print("Result:", result)
