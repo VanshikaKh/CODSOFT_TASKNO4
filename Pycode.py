@@ -31,3 +31,13 @@ elif operation == "*":
     # Multiply the two numbers
     result = num1 * num2
     print("Result:", result)
+elif operation == "/":
+
+    # Check if the second number is zero
+    if num2 == 0:
+        print("Error! Cannot divide by zero.")
+
+    else:
+        # Divide the first number by the second number
+        result = num1 / num2
+        print("Result:", result)
