@@ -26,7 +26,7 @@ elif operation == "-":
     # Subtract the second number from the first
     result = num1 - num2
     print("Result:", result)
-    elif operation == "*":
+elif operation == "*":
 
     # Multiply the two numbers
     result = num1 * num2
