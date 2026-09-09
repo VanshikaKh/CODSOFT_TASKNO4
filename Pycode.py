@@ -41,3 +41,7 @@ elif operation == "/":
         # Divide the first number by the second number
         result = num1 / num2
         print("Result:", result)
+else:
+
+    # Display an error for an invalid operation
+    print("Invalid operation!")
